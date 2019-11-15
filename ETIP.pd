@@ -1,0 +1,230 @@
+#N canvas 648 425 682 214 12;
+#N canvas 831 514 520 215 Intervallen 1;
+#X obj 189 21 r score;
+#X floatatom 189 45 5 0 0 0 - - -;
+#N canvas 0 22 450 278 (subpatch) 0;
+#X coords 0 1 100 -1 170 80 1 0 0;
+#X restore 11 21 graph;
+#N canvas 297 468 1025 561 Niveau1 0;
+#N canvas 163 191 450 278 (subpatch) 0;
+#X coords 0 1 100 -1 320 240 1 0 0;
+#X restore 99 22 graph;
+#X floatatom 429 39 5 0 0 0 - score -;
+#X obj 61 22 bng 25 250 50 0 int1S empty empty 17 7 0 10 -114521 -33289
+-33289;
+#X text 9 47 Start track;
+#X obj 152 31 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 152 172 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 249 31 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 249 78 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 249 219 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X text 427 17 Score;
+#X obj 152 78 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 152 125 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 249 125 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 249 172 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 346 172 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 346 31 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 346 78 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 346 125 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X text 141 46 prime;
+#X text 216 46 kl. sekunde;
+#X text 314 46 gr. sekunde;
+#X text 127 92 kl. terts;
+#X text 226 92 gr. terts;
+#X text 335 92 kwart;
+#X text 220 140 reine kwint;
+#X text 120 140 verm. kwint;
+#X text 326 140 kl. sext;
+#X text 129 186 gr. sext;
+#X text 218 186 kl. septiem;
+#X text 315 186 gr. septiem;
+#X text 234 233 octaaf;
+#X text 226 1 Niveau 1;
+#X restore 18 27 pd Niveau1;
+#N canvas 0 22 1440 800 Niveau2 0;
+#X restore 98 27 pd Niveau2;
+#N canvas 0 22 1440 800 Niveau3 0;
+#X restore 18 51 pd Niveau3;
+#N canvas 0 22 1440 800 Niveau4 0;
+#X restore 98 51 pd Niveau4;
+#N canvas 1178 327 1425 885 Niveau5 1;
+#N canvas 163 191 450 278 (subpatch) 0;
+#X coords 0 1 100 -1 320 240 1 0 0;
+#X restore 112 25 graph;
+#X floatatom 442 46 5 0 0 0 - score -;
+#X obj 74 29 bng 25 250 50 0 int5S empty empty 17 7 0 10 -114521 -33289
+-33289;
+#X obj 165 38 bng 15 250 50 0 int5A0 empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 165 179 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 262 38 bng 15 250 50 0 int5A1 empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 262 85 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 262 226 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X text 440 24 Score;
+#X obj 165 85 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 165 132 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 262 132 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 262 179 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 359 179 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 359 38 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 359 85 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 359 132 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X text 154 53 prime;
+#X text 229 53 kl. sekunde;
+#X text 327 53 gr. sekunde;
+#X text 140 99 kl. terts;
+#X text 239 99 gr. terts;
+#X text 348 99 kwart;
+#X text 233 147 reine kwint;
+#X text 339 147 kl. sext;
+#X text 142 193 gr. sext;
+#X text 231 193 kl. septiem;
+#X text 328 193 gr. septiem;
+#X text 247 240 octaaf;
+#X symbolatom 442 84 12 0 0 0 - int5R -;
+#X text 439 64 Result;
+#X text 243 8 Level 5;
+#X text 9 54 Play interval;
+#X text 133 147 verm. kwint;
+#X restore 57 75 pd Niveau5;
+#X text 70 1 Niveaus;
+#X obj 10 119 cnv 60 185 75 empty empty empty 20 12 0 14 -262144 -66577
+0;
+#X connect 0 0 1 0;
+#X restore 7 27 pd Intervallen;
+#N canvas 0 22 450 300 Akkoorden 0;
+#X restore 120 27 pd Akkoorden;
+#N canvas 0 22 450 300 Toonladders 0;
+#X restore 7 56 pd Toonladders;
+#N canvas 0 22 450 300 Tempo 0;
+#X restore 120 56 pd Tempo;
+#N canvas 0 22 450 278 (subpatch) 0;
+#X coords 0 1 100 -1 210 56 1 0 0;
+#X restore 3 23 graph;
+#X text 43 3 GR Solfège training;
+#X floatatom 218 43 5 0 0 0 - - -;
+#X obj 218 63 bng 15 250 50 0 resetScore startup empty 17 7 0 10 -262144
+-1 -1;
+#X text 233 60 reset score;
+#N canvas 350 595 450 300 backend 1;
+#X text 21 8 Increase Score;
+#X obj 5 11 bng 15 250 50 0 scoreUp empty empty 17 7 0 10 -262144 -1
+-1;
+#N canvas 142 259 450 300 score 0;
+#X obj 105 103 outlet;
+#X obj 155 103 s score;
+#X floatatom 105 77 5 0 0 0 - - -;
+#X obj 105 8 r scoreUp;
+#X obj 105 31 f;
+#X obj 105 54 + 1;
+#X obj 11 8 r resetScore;
+#X msg 11 31 -1;
+#X connect 2 0 1 0;
+#X connect 2 0 0 0;
+#X connect 2 0 4 1;
+#X connect 3 0 4 0;
+#X connect 4 0 5 0;
+#X connect 5 0 2 0;
+#X connect 6 0 7 0;
+#X connect 7 0 4 0;
+#X restore 205 12 pd score;
+#X floatatom 205 38 5 0 0 0 - - -;
+#X text 244 38 current score;
+#N canvas 924 688 450 300 int 1;
+#N canvas 183 595 881 403 int5 1;
+#X obj 34 19 r int5S;
+#X obj 34 43 random 13;
+#X text 105 44 picks a random interval to check;
+#X text 751 15 store which interval was chosen;
+#X floatatom 681 39 5 0 0 0 - - -;
+#X obj 41 67 s int5int;
+#X obj 681 16 r int5int;
+#N canvas 193 157 450 300 int5A 0;
+#X obj 161 176 outlet;
+#X obj 150 92 r int5A1;
+#X obj 81 92 r int5A0;
+#X msg 91 125 0;
+#X msg 152 125 1;
+#X connect 1 0 4 0;
+#X connect 2 0 3 0;
+#X connect 3 0 0 0;
+#X connect 4 0 0 0;
+#X restore 617 16 pd int5A;
+#X floatatom 617 39 5 0 0 0 - - -;
+#X text 455 15 which answer was given;
+#X obj 617 61 ==;
+#X text 652 61 check if answer was correct;
+#X obj 617 85 tgl 20 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 34 91 sel 0 1 2 3 4 5 6 7 8 9 10 11 12;
+#X obj 649 140 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 617 140 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 617 111 sel 1;
+#X text 562 138 correct;
+#X text 668 138 incorrect;
+#X obj 484 116 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X msg 484 160 -1;
+#X obj 484 136 delay 1;
+#X text 383 114 reset checker;
+#X obj 649 183 s int5R;
+#X obj 522 160 symbol Correct!;
+#X obj 649 160 symbol Incorrect!;
+#X text 705 184 Send feedback of the result to the UI;
+#X obj 565 183 s scoreUp;
+#X text 412 183 Increase score by one;
+#X connect 0 0 1 0;
+#X connect 1 0 5 0;
+#X connect 1 0 13 0;
+#X connect 4 0 10 1;
+#X connect 6 0 4 0;
+#X connect 7 0 8 0;
+#X connect 8 0 10 0;
+#X connect 10 0 12 0;
+#X connect 12 0 16 0;
+#X connect 14 0 25 0;
+#X connect 15 0 19 0;
+#X connect 15 0 24 0;
+#X connect 15 0 27 0;
+#X connect 16 0 15 0;
+#X connect 16 1 14 0;
+#X connect 19 0 21 0;
+#X connect 20 0 4 0;
+#X connect 21 0 20 0;
+#X connect 24 0 23 0;
+#X connect 25 0 23 0;
+#X restore 10 10 pd int5;
+#X restore 205 64 pd int;
+#X connect 2 0 3 0;
+#X coords 0 0 0.5 0.5 170 120 0;
+#X restore 8 84 pd backend;
+#X obj 218 23 r score;
+#X connect 10 0 6 0;
