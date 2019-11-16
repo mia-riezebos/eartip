@@ -1,14 +1,13 @@
-#N canvas 110 188 496 339 12;
+#N canvas 681 502 496 327 12;
 #N canvas 0 22 450 300 Tempo 0;
-#X restore 26 129 pd Tempo;
+#X restore 26 128 pd Tempo;
 #N canvas 0 22 450 278 (subpatch) 0;
 #X coords 0 1 100 -1 98 128 1 0 0;
-#X restore 22 26 graph;
-#X floatatom 126 56 5 0 0 0 - - -;
-#X obj 126 98 bng 15 250 50 0 resetScore startup empty 17 7 0 10 -262144
+#X restore 22 25 graph;
+#X obj 126 97 bng 15 250 50 0 resetScore startup empty 17 7 0 10 -262144
 -1 -1;
-#X text 141 95 reset score;
-#N canvas 697 767 450 300 backend 0;
+#X text 141 94 reset score;
+#N canvas 1186 550 450 300 backend 0;
 #X text 21 8 Increase Score;
 #X obj 5 11 bng 15 250 50 0 scoreUp empty empty 17 7 0 10 -262144 -1
 -1;
@@ -33,7 +32,7 @@
 #X floatatom 205 38 5 0 0 0 - - -;
 #X text 244 38 current score;
 #N canvas 1033 696 450 300 int 0;
-#N canvas 177 739 1344 504 int5 0;
+#N canvas 928 688 1344 504 int5 0;
 #X obj 34 19 r int5S;
 #X obj 34 43 random 13;
 #X text 105 44 picks a random interval to check;
@@ -145,11 +144,8 @@
 #X restore 205 64 pd int;
 #X connect 2 0 3 0;
 #X coords 0 0 0.5 0.5 170 120 0;
-#X restore 127 130 pd backend;
-#X obj 126 30 r score;
-#N canvas 405 490 728 600 Intervals 0;
-#X obj 189 26 r score;
-#X floatatom 189 50 5 0 0 0 - - -;
+#X restore 127 129 pd backend;
+#N canvas 168 720 1013 242 Intervals 0;
 #N canvas 0 22 450 278 (subpatch) 0;
 #X coords 0 1 100 -1 170 80 1 0 0;
 #X restore 11 21 graph;
@@ -209,7 +205,7 @@
 #X restore 98 51 pd Level 4;
 #N canvas 0 22 1440 800 Level 0;
 #X restore 18 51 pd Level 3;
-#N canvas 686 312 1425 885 Level 0;
+#N canvas 66 139 1131 596 Level 0;
 #N canvas 163 191 450 278 (subpatch) 0;
 #X coords 0 1 100 -1 320 240 1 0 0;
 #X restore 111 29 graph;
@@ -262,14 +258,16 @@
 -1 -1;
 #X restore 57 75 pd Level 5;
 #X text 70 1 Levels;
-#X connect 0 0 1 0;
-#X restore 26 30 pd Intervals;
+#X floatatom 187 40 5 0 0 0 - score -;
+#X text 185 18 Score;
+#X restore 26 29 pd Intervals;
 #N canvas 0 22 450 300 Scales 0;
-#X restore 26 96 pd Scales;
+#X restore 26 95 pd Scales;
 #N canvas 0 22 450 300 Chords 0;
-#X restore 26 63 pd Chords;
-#X text 27 5 Ear training in PureData;
-#X obj 126 129 cnv 15 80 24 empty empty empty 20 12 0 14 -262144 -66577
+#X restore 26 62 pd Chords;
+#X text 27 4 Ear training in PureData;
+#X obj 126 128 cnv 15 80 24 empty empty empty 20 12 0 14 -262144 -66577
 0;
-#X connect 6 0 2 0;
-#X coords 0 169.5 1 168.5 170 120 0;
+#X floatatom 128 45 5 0 0 0 - score -;
+#X text 126 23 Score;
+#X coords 0 163.5 1 162.5 170 120 0;
