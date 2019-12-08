@@ -1,12 +1,12 @@
-#N canvas 1372 290 523 379 12;
+#N canvas 3 15 454 313 12;
 #N canvas 812 414 1051 505 Tempo 0;
-#X restore 26 153 pd Tempo;
+#X restore 10 126 pd Tempo;
 #N canvas 0 22 450 278 (subpatch) 0;
 #X coords 0 1 100 -1 98 128 1 0 0;
-#X restore 22 50 graph;
-#X obj 126 122 bng 15 250 50 0 resetScore startup empty 17 7 0 10 -262144
+#X restore 6 23 graph;
+#X obj 110 95 bng 15 250 50 0 resetScore startup empty 17 7 0 10 -262144
 -1 -1;
-#X text 141 119 reset score;
+#X text 125 92 reset score;
 #N canvas 134 499 822 522 backend 0;
 #X text 21 8 Increase Score;
 #X obj 5 11 bng 15 250 50 0 scoreUp empty empty 17 7 0 10 -262144 -1
@@ -452,7 +452,7 @@
 #X text 391 19 which answer was given;
 #X obj 553 65 ==;
 #X text 588 65 check if answer was correct;
-#X obj 553 89 tgl 20 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+#X obj 553 89 tgl 20 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
 1;
 #X obj 585 144 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
@@ -594,7 +594,7 @@
 #X text 391 19 which answer was given;
 #X obj 553 65 ==;
 #X text 588 65 check if answer was correct;
-#X obj 553 89 tgl 20 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+#X obj 553 89 tgl 20 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
 1;
 #X obj 585 144 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
@@ -926,7 +926,7 @@
 #X text 241 29 which answer was given;
 #X obj 403 75 ==;
 #X text 438 75 check if answer was correct;
-#X obj 403 99 tgl 20 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+#X obj 403 99 tgl 20 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
 1;
 #X obj 435 154 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
@@ -1122,7 +1122,7 @@
 #X text 241 29 which answer was given;
 #X obj 403 75 ==;
 #X text 438 75 check if answer was correct;
-#X obj 403 99 tgl 20 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+#X obj 403 99 tgl 20 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
 1;
 #X obj 435 154 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
@@ -1313,15 +1313,15 @@
 #X restore 205 64 pd int;
 #X connect 2 0 3 0;
 #X coords 0 0 0.5 0.5 170 120 0;
-#X restore 127 154 pd backend;
-#N canvas 881 582 485 242 Intervals 0;
+#X restore 111 127 pd backend;
+#N canvas 468 17 485 242 Intervals 0;
 #N canvas 0 22 450 278 (subpatch) 0;
 #X coords 0 1 100 -1 170 80 1 0 0;
 #X restore 11 21 graph;
 #X text 70 1 Levels;
 #X floatatom 187 40 5 0 0 0 - score -;
 #X text 185 18 Score;
-#N canvas 771 321 1110 587 Level1 0;
+#N canvas 6 319 1108 558 Level1 0;
 #N canvas 163 191 450 278 (subpatch) 0;
 #X coords 0 1 100 -1 320 240 1 0 0;
 #X restore 111 29 graph;
@@ -1349,7 +1349,7 @@
 #X text 11 54 New interval;
 #X text 243 8 Level 1;
 #X restore 18 27 pd Level1;
-#N canvas 826 190 1440 800 Level3 0;
+#N canvas 8 321 1108 556 Level3 0;
 #N canvas 163 191 450 278 (subpatch) 0;
 #X coords 0 1 100 -1 320 240 1 0 0;
 #X restore 111 29 graph;
@@ -1393,7 +1393,7 @@
 #X text 243 8 Level 3;
 #X coords 0 0 0.5 0.5 0 0 0;
 #X restore 18 51 pd Level3;
-#N canvas 1160 415 1131 596 Level5 0;
+#N canvas 12 325 1109 559 Level5 0;
 #N canvas 163 191 450 278 (subpatch) 0;
 #X coords 0 1 100 -1 320 240 1 0 0;
 #X restore 111 29 graph;
@@ -1445,7 +1445,7 @@
 -1 -1;
 #X text 11 54 New interval;
 #X restore 57 75 pd Level5;
-#N canvas 1018 328 1113 603 Level4 0;
+#N canvas 10 324 1107 557 Level4 0;
 #N canvas 163 191 450 278 (subpatch) 0;
 #X coords 0 1 100 -1 320 240 1 0 0;
 #X restore 111 29 graph;
@@ -1467,7 +1467,7 @@
 #X text 11 54 New interval;
 #X text 243 8 Level 4;
 #X restore 98 51 pd Level4;
-#N canvas 1131 351 1078 623 Level2 1;
+#N canvas 9 323 1106 552 Level2 0;
 #N canvas 163 191 450 278 (subpatch) 0;
 #X coords 0 1 100 -1 320 240 1 0 0;
 #X restore 111 29 graph;
@@ -1495,9 +1495,9 @@
 #X text 11 54 New interval;
 #X text 243 8 Level 2;
 #X restore 98 27 pd Level2;
-#X restore 26 54 pd Intervals;
+#X restore 10 27 pd Intervals;
 #N canvas 1115 243 921 545 Scales 0;
-#X restore 26 120 pd Scales;
+#X restore 10 93 pd Scales;
 #N canvas 40 269 1107 736 Chords 0;
 #N canvas 163 191 450 278 (subpatch) 0;
 #X coords 0 1 100 -1 320 240 1 0 0;
@@ -1549,10 +1549,10 @@
 #X text 255 193 maj7;
 #X text 351 193 add9;
 #X text 248 240 add11;
-#X restore 26 87 pd Chords;
-#X text 27 29 Ear training in PureData;
-#X obj 126 153 cnv 15 80 24 empty empty empty 20 12 0 14 -262144 -66577
+#X restore 10 60 pd Chords;
+#X text 11 2 Ear training in PureData;
+#X obj 110 126 cnv 15 80 24 empty empty empty 20 12 0 14 -262144 -66577
 0;
-#X floatatom 128 70 5 0 0 0 - score -;
-#X text 126 48 Score;
-#X coords 0 189.5 1 188.5 170 120 0;
+#X floatatom 112 43 5 0 0 0 - score -;
+#X text 110 21 Score;
+#X coords 0 156.5 1 155.5 170 120 0;
