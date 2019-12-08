@@ -1,4 +1,4 @@
-#N canvas 741 432 523 379 12;
+#N canvas 1372 290 523 379 12;
 #N canvas 812 414 1051 505 Tempo 0;
 #X restore 26 153 pd Tempo;
 #N canvas 0 22 450 278 (subpatch) 0;
@@ -1314,14 +1314,14 @@
 #X connect 2 0 3 0;
 #X coords 0 0 0.5 0.5 170 120 0;
 #X restore 127 154 pd backend;
-#N canvas 882 506 485 242 Intervals 0;
+#N canvas 881 582 485 242 Intervals 0;
 #N canvas 0 22 450 278 (subpatch) 0;
 #X coords 0 1 100 -1 170 80 1 0 0;
 #X restore 11 21 graph;
 #X text 70 1 Levels;
 #X floatatom 187 40 5 0 0 0 - score -;
 #X text 185 18 Score;
-#N canvas 790 427 1110 587 Level1 0;
+#N canvas 771 321 1110 587 Level1 0;
 #N canvas 163 191 450 278 (subpatch) 0;
 #X coords 0 1 100 -1 320 240 1 0 0;
 #X restore 111 29 graph;
@@ -1393,7 +1393,7 @@
 #X text 243 8 Level 3;
 #X coords 0 0 0.5 0.5 0 0 0;
 #X restore 18 51 pd Level3;
-#N canvas 797 441 1131 596 Level5 0;
+#N canvas 1160 415 1131 596 Level5 0;
 #N canvas 163 191 450 278 (subpatch) 0;
 #X coords 0 1 100 -1 320 240 1 0 0;
 #X restore 111 29 graph;
@@ -1445,7 +1445,7 @@
 -1 -1;
 #X text 11 54 New interval;
 #X restore 57 75 pd Level5;
-#N canvas 451 333 1113 603 Level4 0;
+#N canvas 1018 328 1113 603 Level4 0;
 #N canvas 163 191 450 278 (subpatch) 0;
 #X coords 0 1 100 -1 320 240 1 0 0;
 #X restore 111 29 graph;
@@ -1467,7 +1467,7 @@
 #X text 11 54 New interval;
 #X text 243 8 Level 4;
 #X restore 98 51 pd Level4;
-#N canvas 879 397 1078 623 Level2 0;
+#N canvas 1131 351 1078 623 Level2 1;
 #N canvas 163 191 450 278 (subpatch) 0;
 #X coords 0 1 100 -1 320 240 1 0 0;
 #X restore 111 29 graph;
