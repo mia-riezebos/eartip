@@ -1,5 +1,5 @@
-#N canvas 205 133 454 313 12;
-#N canvas 345 264 1051 505 Tempo 0;
+#N canvas 9 32 454 313 12;
+#N canvas 9 317 1051 505 Tempo 0;
 #X obj 74 29 bng 25 250 50 0 tempoS empty empty 17 7 0 10 -114521 -33289
 -33289;
 #X text 25 54 play click;
@@ -2137,14 +2137,14 @@
 #X connect 2 0 3 0;
 #X coords 0 0 0.5 0.5 170 120 0;
 #X restore 111 127 pd backend;
-#N canvas 587 47 485 242 Intervals 0;
+#N canvas 465 32 485 242 Intervals 0;
 #N canvas 0 22 450 278 (subpatch) 0;
 #X coords 0 1 100 -1 170 80 1 0 0;
 #X restore 11 21 graph;
 #X text 70 1 Levels;
 #X floatatom 187 40 5 0 0 0 - score -;
 #X text 185 18 Score;
-#N canvas 71 247 1108 558 Level1 0;
+#N canvas 9 264 1108 558 Level1 0;
 #N canvas 163 191 450 278 (subpatch) 0;
 #X coords 0 1 100 -1 320 240 1 0 0;
 #X restore 111 29 graph;
@@ -2172,7 +2172,7 @@
 #X text 11 54 New interval;
 #X text 243 8 Level 1;
 #X restore 18 27 pd Level1;
-#N canvas 8 321 1108 556 Level3 0;
+#N canvas 9 266 1108 556 Level3 0;
 #N canvas 163 191 450 278 (subpatch) 0;
 #X coords 0 1 100 -1 320 240 1 0 0;
 #X restore 111 29 graph;
@@ -2216,7 +2216,7 @@
 #X text 243 8 Level 3;
 #X coords 0 0 0.5 0.5 0 0 0;
 #X restore 18 51 pd Level3;
-#N canvas 331 91 1109 559 Level5 0;
+#N canvas 10 263 1109 559 Level5 0;
 #N canvas 163 191 450 278 (subpatch) 0;
 #X coords 0 1 100 -1 320 240 1 0 0;
 #X restore 111 29 graph;
@@ -2268,7 +2268,7 @@
 -1 -1;
 #X text 11 54 New interval;
 #X restore 57 75 pd Level5;
-#N canvas 10 324 1107 557 Level4 0;
+#N canvas 10 266 1107 557 Level4 0;
 #N canvas 163 191 450 278 (subpatch) 0;
 #X coords 0 1 100 -1 320 240 1 0 0;
 #X restore 111 29 graph;
@@ -2290,7 +2290,7 @@
 #X text 11 54 New interval;
 #X text 243 8 Level 4;
 #X restore 98 51 pd Level4;
-#N canvas 9 323 1106 552 Level2 0;
+#N canvas 10 265 1107 557 Level2 0;
 #N canvas 163 191 450 278 (subpatch) 0;
 #X coords 0 1 100 -1 320 240 1 0 0;
 #X restore 111 29 graph;
@@ -2319,9 +2319,9 @@
 #X text 243 8 Level 2;
 #X restore 98 27 pd Level2;
 #X restore 10 27 pd Intervals;
-#N canvas 1115 243 921 545 Scales 0;
+#N canvas 8 264 921 545 Scales 0;
 #X restore 10 93 pd Scales;
-#N canvas 253 111 1120 573 Chords 0;
+#N canvas 10 249 1120 573 Chords 0;
 #N canvas 163 191 450 278 (subpatch) 0;
 #X coords 0 1 100 -1 320 240 1 0 0;
 #X restore 111 29 graph;
@@ -2378,4 +2378,4 @@
 0;
 #X floatatom 112 43 5 0 0 0 - score -;
 #X text 110 21 Score;
-#X coords 0 313 1 312 170 120 0;
+#X coords 0 156.5 1 155.5 170 120 0;
