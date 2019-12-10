@@ -2018,7 +2018,7 @@
 #X obj 17 40;
 #X connect 0 0 1 0;
 #X restore 205 110 pd scales;
-#N canvas 314 149 1000 551 tempo 0;
+#N canvas 367 149 1000 551 tempo 0;
 #X obj 51 95 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0 1
 ;
 #X text 669 45 store which interval was chosen;
