@@ -10,6 +10,7 @@ Now you have the EarTIP.pd file, which you can open in PureData to start using E
 ## Screenshots
 ### Main Menu
 ![Main Menu](https://github.com/baymoe/EarTIP/blob/canary/screenshots/main%20menu.png "Main Menu")
+
 The main menu provides options to start practicing multiple categories of ear training.
 
 ### Intervals
