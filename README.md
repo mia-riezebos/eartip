@@ -1,5 +1,5 @@
 # EarTIP
- Ear-training in PureData is a free and open-source pD application which you can use to train interval recognition, chord and key identification and even guess tempos.
+ Ear-training in PureData is a free and open-source pD patch which you can use to train interval recognition, chord and key identification and even guess tempos.
  
  ## Getting Started
  To start using EarTIP, you will inadvertedly need PureData first, an updated download is always available on the [PureData website](https://puredata.info/downloads/pure-data).
